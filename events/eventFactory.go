@@ -15,11 +15,11 @@ func CreateDefaultEvent(srv *calendar.Service) {
 		Location:    "My Yoga Mat",
 		Description: "Set up by ScheduleMaker",
 		Start: &calendar.EventDateTime{
-			DateTime: "2018-03-18T16:30:00-05:00",
+			DateTime: "2018-03-18T16:30:00-04:00",
 			TimeZone: "America/New_York",
 		},
 		End: &calendar.EventDateTime{
-			DateTime: "2015-05-28T17:00:00-05:00",
+			DateTime: "2018-03-18T17:00:00-04:00",
 			TimeZone: "America/New_York",
 		},
 	}
